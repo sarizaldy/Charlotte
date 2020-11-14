@@ -1,5 +1,5 @@
 const { create } = require('@open-wa/wa-automate')
-const msgHandler = require('./msgHandler')
+const Handler = require('./Handler')
 const fs = require('fs-extra')
 const serverOption = {
     headless: true,
